@@ -1,0 +1,42 @@
+---
+author: Timmeey
+comments: true
+date: 2008-05-27 22:53:52+00:00
+layout: post
+link: https://blog.timmeey.de/09112007-oder-doch-09111989/
+published: false
+slug: 09112007-oder-doch-09111989
+title: 09.11.2007 oder doch 09.11.1989?
+wordpress_id: 3
+categories:
+- Politik
+tags:
+- '1989'
+- BRD
+- DDR
+- Mauerfall
+- Schäuble
+- Stasi2.0
+- Vorratsdaten
+- Wiedervereinigung
+---
+
+
+
+
+
+
+Heute ist der 9.11.2007 oder besser gesagt 9.November 1989, der Tag an dem die Mauer fiel, oder doch nicht?
+
+Heute wurde das sehr umstrittene Gesetz zur sog. “Vorratsdatenspeicherung” ![](/media/images/{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}/grundgesetz.jpg?w=214)im Bundestag verabschiedet. Nur kurz zum Inhalt, dieses Gesetz sieht vor jegliche Telekommunikationsdaten 6 Monate lang, auf Vorrat zu speichern. D.h. Jeder Anruf ob vom Handy oder Festnetz wird mit Datum Standort und Empfänger gespeichert, zwar sollen keine Inhalte gespeichert werden, dennoch lässt sich so ein präzieses Bild eines jeden Bürgers erstellen. Ein Anruf bei einer AIDS-Beratungstelle, oder einer Coming-Out Hilfe, ja sogar jeder Anruf bei einem Arzt, Anwalt etc. Und schon weiß Vater Staat genau bescheid, ob jemand Schwul ist oder sich vllt mit dem HI-Virus infiziert hat. Auch werden sämtliche Internet Daten gespeichert, wer welche Internetseiten aufruft, wer wem eine E-mail schickt, oder wer von wem eine E-mail bekommt(Inclusive des Betreffs der Mail). Genaueres hierzu auf [www.vorratsdatenspeicherung.de](http://www.vorratsdatenspeicherung.de/)
+
+<!-- more -->Das an solch einem Historischen Tag, den jeder Deutsche mit Freiheit verbindet, gerade solch ein Gesetz verabschiedet wird das diese Freiheit einschränk und das Grundgesetz aushebelt, ist gerade zu verachtend gegenüber unserer Geschichte. Wir haben hart gekämpft um die Freiheit aller Deutschen zu garantieren. Nun lassen wir sie uns von den durch uns gewählten “Volksvertreter” wieder nehmen. Gerade der Innenminister W. Schäuble soll doch das Volk schützen, also auch die Grundrechte des Volkes. Aber genau diese Grundrechte ignoriert Herr Schäuble mit beeindruckender Konsequenz.
+
+Das Vermittelt fast schon den Eindruck das die Gechichte, der Mauerfall, die Wiedervereinigung genau andersherum abgelaufen sind. Das Anstatt die DDR in die BRD zu reintegrieren, die BRD in die DDR eingegliedert wurde, zumindest kann man den diesen Eindruck bekommen, Geruchsproben der G8 Gegner, General Verdacht gegenüber jedem Bürger, Daten auf Vorrat zu speichern, dies sind nur einige Maßnahmen die in der DDR auch durchgeführt wurden, nur das es damals noch kein Internet keine Handys etc. gab die man hätte Überwachen könne. Wären diese Möglichkeiten damals gegeben gewesen sie wären genutzt worden. Wir sind auf dem besten weg die Deutsche Geschichte zu wiederholen und dabei neu zu schreiben, Überwachungsstaat Stasi2.0.
+
+Also ab zurück ins Jahr 1989.
+
+
+
+
+
