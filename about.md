@@ -25,7 +25,7 @@ wordpress_id: 253
   * Berlin, Germany
 
  	
-  * TU-Berlin Msc. Computer Science (almost finished ~Fall/End 2016)
+  * TU-Berlin Msc. Computer Science (almost finished)
 
  	
     * Focus: System Engineering
@@ -68,8 +68,9 @@ I'm a computer science student who is interested in Software-Security and well b
 
 ## "What kind of work do you do?":
 
+As of March, 2017 I'm working as a junior Developer with the great people at [neXenio](https://nexenio.com/en/), developing the Spring Java backend of a truly secure cloud storage solution "made in Germany". 
 
-Currently I am a working student at TU-Berlin @Institute of Mathematics as a Linux-SysAdmin/Developer (to be honest, most of the time is spend supporting users and sometimes feeding the printers).
+Previously i worked as a working student at TU-Berlin @Institute of Mathematics as a Linux-SysAdmin/Developer (to be honest, most of the time is spend supporting users and sometimes feeding the printers).
 
 
 ## "And in your free time?":
@@ -152,18 +153,12 @@ Currently I'm searching for a topic for my masters thesis, which probably will 
 
 
 
- 	
-  * Vaadin
-
-
-
-
 ## "How would you describe the job you want to work in?":
 
 
 
 
-First of all, i like to describe myself as a _Software engineer, _rather than Developer/Hacker/Programmer. Short term i would like to work in a small team developing backend components for a larger System, in a company that sees it's IT not as a necessary burden, but as a central important part of it's business. Long term i'm looking for something like being head of a software engineering team doing software development on a project basis.
+First of all, i like to describe myself as a _Software engineer, _rather than Developer/Hacker/Programmer/Rockstar/Magician..... Short term i would like to work in a small team developing backend components for a larger System, in a company that sees it's IT not as a necessary burden, but as a central important part of it's business. Long term i'm looking for something like being head of a software engineering team doing software development on a project basis.
 
 
 
