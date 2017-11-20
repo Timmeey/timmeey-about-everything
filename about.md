@@ -15,43 +15,43 @@ wordpress_id: 253
 
 
 
- 	
+
   * Tim Hinkes
 
- 	
+
   * tim[ÄT]tim-hinkes.de
 
- 	
+
   * Berlin, Germany
 
- 	
+
   * TU-Berlin Msc. Computer Science (almost finished)
 
- 	
+
     * Focus: System Engineering
 
- 	
+
     * Minor: Economics
 
 
 
 
- 	
+
   * Software Engineer - Backend
 
- 	
+
     * Software done right
 
 
 
 
- 	
+
   * Java (8)
 
- 	
+
   * Cryptography
 
- 	
+
     * In Crypto We Trust
 
 
@@ -68,7 +68,7 @@ I'm a computer science student who is interested in Software-Security and well b
 
 ## "What kind of work do you do?":
 
-As of March, 2017 I'm working as a junior Developer with the great people at [neXenio](https://nexenio.com/en/), developing the Spring Java backend of a truly secure cloud storage solution "made in Germany". 
+As of March, 2017 I'm working as a junior Developer with the great people at [neXenio](https://nexenio.com/en/), developing the Spring Java backend of a truly secure cloud storage solution "made in Germany".
 
 Previously i worked as a working student at TU-Berlin @Institute of Mathematics as a Linux-SysAdmin/Developer (to be honest, most of the time is spend supporting users and sometimes feeding the printers).
 
@@ -105,49 +105,49 @@ Currently I'm searching for a topic for my masters thesis, which probably will 
 
 
 
- 	
+
   * Java
 
- 	
+
   * Maven
 
- 	
+
   * Git
 
- 	
+
   * SVN
 
- 	
+
   * GPG/PGP(asymmetric encryption in general)
 
- 	
+
   * Play! Framework
 
- 	
+
   * SQL
 
- 	
+
   * Spring-(....)
 
- 	
+
   * Eclipse
 
- 	
-  * Speedment (Java8 SQL ORM framework heavily relying on Streams)
+  * Database
+    * Speedment (Java8 SQL ORM framework heavily relying on Streams)
+    * JOOQ ("Java object oriented querying" TypeSafe compiler checked SQL in Java)
+    * Hibernate
+    * N1QL Couchbase
 
- 	
-  * Hibernate
 
- 	
   * Amazon AWS/S3
 
- 	
+
   * Blockchain
 
- 	
+
     * Bitcoin
 
- 	
+
     * NXT/SuperNet
 
 
@@ -169,22 +169,20 @@ First of all, i like to describe myself as a _Software engineer, _rather than De
 
 
 
- 	
+
   1. [@Timmeeyyy](https://twitter.com/Timmeeyyy)
 
- 	
+
   2. [Github](https://github.com/timmeey)
 
- 	
+
   3. [Keybase.io](https://keybase.io/timmeey/)
 
- 	
+
   4. [Facebook](https://www.facebook.com/TimHi)
 
- 	
+
   5. [LinkedIn](https://de.linkedin.com/in/tim-hinkes-141a8411a)
 
- 	
+
   6. [Xing](https://www.xing.com/profile/Tim_Hinkes)
-
-
