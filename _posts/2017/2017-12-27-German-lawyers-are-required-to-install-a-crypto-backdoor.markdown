@@ -5,7 +5,7 @@ date: '2017-12-27 00:21'
 ---
 
 # German lawyers are now required to install a crypto backdoor
-Starting on 1.1.2018 all german lawyers are **required** to use the [_special electronic lawyer mailbox_ (beA)][a0bf7d8b] for communication with authorities and courts, which requires installation of a ROOT-CA(with a publicly known private-key) into the system.
+Starting on 1.1.2018 all german lawyers are **required** to use the [_special electronic lawyer mailbox_ (beA)][a0bf7d8b] for communication with authorities and courts, which requires a system wide installation of a ROOT-CA(with a publicly known private-key).
 
 ## Technical background for non-IT experts
 Internet connections are mostly encrypted to protect sensitive data. To make sure the connection is not only encrypted, but you are also talking to the intended server, connections are _signed_. To do this, windows/mac comes with a list of _signatures_ which are considered trustworthy (ROOT-CA). Websites who want to support trusted and encrypted connections are buying a custom signature (imagine a real signature like on a paper document) from the trustworthy ROOT-CA. When someone now tries to connect to such a website, it presents this custom made signature, the connecting system compares this signature to the known trusted signature(the ROOT-CA) (which came with windows/mac). If it is a match, the system knows it is talking to the correct website and not a _man in the middle_([^MITM]). Otherwise the connection is refused and a warning is shown.
