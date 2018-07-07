@@ -31,7 +31,7 @@ I'm a backend software engineer who is interested in Software-Security and well 
 
 
 ## "What kind of work do you do?":
-Since May, 2018 I'm working again as a backend software engineer for one of the core components of a Berlin based startup. This time starting with a greenfield project utilizing [JOOQ](https://www.jooq.org/) Spring* and [Cucumber](https://cucumber.io/) (Stay tuned for more details *SOON*)
+Since May, 2018 I'm working again as a backend software engineer for one of the core components of a Berlin based startup. This time starting with a greenfield project utilizing [JOOQ](https://www.jooq.org/) Spring* and [Cucumber](https://cucumber.io/) for our Behaviour driven development[(BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development) (Stay tuned for more details *SOON*)
 
 From March, 2017 until end of April 2018 I was working as a junior Developer with the great people at [neXenio](https://nexenio.com/en/), developing the Spring Java backend of a truly secure cloud storage solution (**BDrive**) "made in Germany".
 
