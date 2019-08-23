@@ -1,0 +1,13 @@
+FROM jekyll/jekyll
+
+ENV GAIA_HOME=/usr/local/gaia/
+
+RUN mkdir -p $GAIA_HOME
+WORKDIR $GAIA_HOME
+
+# add source
+ADD . $GAIA_HOME
+RUN chmod -R  777  ./
+
+# run maven verify
+RUN ["/bin/bash","jekyll","build","-s",".","-d","./_site"]

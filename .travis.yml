@@ -1,0 +1,15 @@
+language: ruby
+cache: bundler
+
+services:
+   - docker
+script:
+  - docker build -f Dockerfile-build -t timmeey/blog-build:$TRAVIS_JOB_ID .
+  - docker create --name build-cont timmeey/blog-build:$TRAVIS_JOB_ID
+  - docker cp build-cont:/usr/local/gaia/_site ./
+before_deploy:
+  - docker build -f Dockerfile -t docker-registry.timmeey.eu/timmeey/blog:$TRAVIS_JOB_ID .
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash .travis/docker_push
