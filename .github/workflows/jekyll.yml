@@ -23,9 +23,9 @@ jobs:
         docker build . -t timmeeyBlog:latest
 
     - name: CapRover Image Deploy
-        uses: stardustventures/caprover-deploy@v2
-        with:
-          server: '${{secrets.CAPROVER_ROOT}}'
-          password: '${{ secrets.CAPROVER_PASSWORD}}'
-          appname: 'timmeey-about-everything'
-          image: timmeeyBlog:latest
+      uses: stardustventures/caprover-deploy@v2
+      with:
+        server: '${{secrets.CAPROVER_ROOT}}'
+        password: '${{ secrets.CAPROVER_PASSWORD}}'
+        appname: 'timmeey-about-everything'
+        image: timmeeyBlog:latest
