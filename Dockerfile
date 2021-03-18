@@ -1,5 +1,5 @@
 ############# SETUP DEPENDENCIES #############
-FROM jekyll/builder:latest AS dependencies
+FROM jekyll/builder:latest AS builder
 ENV GAIA_HOME=/usr/local/gaia/
 RUN mkdir -p $GAIA_HOME
 WORKDIR $GAIA_HOME
@@ -9,7 +9,6 @@ RUN chmod -R  777  ./
 RUN ["/bin/bash","bundle","install"]
 
 ############# BUILDER PART #############
-FROM dependencies as builder
 ADD . $GAIA_HOME
 
 RUN ["/bin/bash","jekyll","build","-s",".","-d","./_site"]

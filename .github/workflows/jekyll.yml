@@ -15,9 +15,17 @@ jobs:
     - uses: satackey/action-docker-layer-caching@v0.0.11
       # Ignore the failure of a step and avoid terminating the job.
       continue-on-error: true
-    - name: Prepare Docker container with dependencies
-      run: |
-        docker build --target dependencies .
     - name: Build Jekyll site
       run: |
         docker build --target builder .
+    - name: Build full image
+          run: |
+            docker build . -t timmeeyBlog:latest
+
+    - name: CapRover Image Deploy
+        uses: stardustventures/caprover-deploy@v2
+        with:
+          server: '${{secrets.CAPROVER_ROOT}}'
+          password: '${{ secrets.CAPROVER_PASSWORD}}'
+          appname: 'timmeey-about-everything'
+          image: timmeeyBlog:latest
