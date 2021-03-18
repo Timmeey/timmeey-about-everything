@@ -19,8 +19,8 @@ jobs:
       run: |
         docker build --target builder .
     - name: Build full image
-          run: |
-            docker build . -t timmeeyBlog:latest
+      run: |
+        docker build . -t timmeeyBlog:latest
 
     - name: CapRover Image Deploy
         uses: stardustventures/caprover-deploy@v2
