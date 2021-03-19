@@ -34,4 +34,4 @@ jobs:
         server: '${{secrets.CAPROVER_ROOT}}'
         password: '${{ secrets.CAPROVER_PASSWORD}}'
         appname: 'timmeey-about-everything'
-        image: timmeeyblog:latest
+        image: timmeey-about-everything/timmeeyblog:latest
