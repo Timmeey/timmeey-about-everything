@@ -20,7 +20,13 @@ jobs:
         docker build --target builder .
     - name: Build full image
       run: |
-        docker build . -t timmeeyblog:latest
+        docker build . -t timmeeyblog
+
+    - name: Build and Publish latest Docker image
+      uses: VaultVulp/gp-docker-action@1.0.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
+        image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
 
     - name: CapRover Image Deploy
       uses: stardustventures/caprover-deploy@v2
