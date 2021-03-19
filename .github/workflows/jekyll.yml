@@ -20,7 +20,7 @@ jobs:
         docker build --target builder .
     - name: Build full image
       run: |
-        docker build . -t timmeeyBlog:latest
+        docker build . -t timmeeyblog:latest
 
     - name: CapRover Image Deploy
       uses: stardustventures/caprover-deploy@v2
@@ -28,4 +28,4 @@ jobs:
         server: '${{secrets.CAPROVER_ROOT}}'
         password: '${{ secrets.CAPROVER_PASSWORD}}'
         appname: 'timmeey-about-everything'
-        image: timmeeyBlog:latest
+        image: timmeeyblog:latest
