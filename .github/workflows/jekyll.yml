@@ -34,4 +34,4 @@ jobs:
         server: '${{secrets.CAPROVER_ROOT}}'
         password: '${{ secrets.CAPROVER_PASSWORD}}'
         appname: 'timmeey-about-everything'
-        image: timmeey-about-everything/timmeeyblog:latest
+        image: docker.pkg.github.com/timmeey/timmeey-about-everything/timmeeyblog:latest
