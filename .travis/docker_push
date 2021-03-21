@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin https://docker-registry.timmeey.eu
-docker push docker-registry.timmeey.eu/timmeey/blog:$TRAVIS_JOB_ID
