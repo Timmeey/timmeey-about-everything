@@ -21,10 +21,10 @@ jobs:
         run: bundle exec jekyll build -s . -d ./_site        
       - name: Build DOcker image prod
         if: github.ref == 'refs/heads/master'  
-        run: docker build -f ./Dockerfile -t main-latest
-      - name: Build DOcker image prod
+        run: docker build -f ./Dockerfile -t main-latest .
+      - name: Build DOcker image stage
         if: github.ref != 'refs/heads/master'
-        run: docker build -f ./Dockerfile -t staging-latest
+        run: docker build -f ./Dockerfile -t staging-latest .
       - name: Build and Publish latest Docker image
         uses: VaultVulp/gp-docker-action@1.0.1
         with:
