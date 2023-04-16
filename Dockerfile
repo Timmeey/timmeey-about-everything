@@ -7,4 +7,4 @@ ADD . $GAIA_HOME
 
 
 ############# ARTIFACT PART #############
-COPY  --from=builder /usr/local/gaia/_site/ /usr/share/nginx/html/
+COPY  ./_site/ /usr/share/nginx/html/
