@@ -1,37 +1,30 @@
 name: Jekyll site CI
 
-on: [push,workflow_dispatch]
+on:
+  push:
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Pull non cached images
-      run: |
-        docker pull jekyll/builder:latest
-    - uses: satackey/action-docker-layer-caching@v0.0.11
-      # Ignore the failure of a step and avoid terminating the job.
-      continue-on-error: true
-    - name: Build Jekyll site
-      run: |
-        docker build --target builder .
-    - name: Build full image
-      run: |
-        docker build . -t timmeeyblog
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Install dependencies
+        run: bundle install
+      - name: Build Static site
+        run: jekyll build -s . -d ./_site
+      - name: Build DOcker image
+        run: docker build -f ./Dockerfile -t ${{ github.ref_name }}-latest
+      - name: Build and Publish latest Docker image
+        uses: VaultVulp/gp-docker-action@1.0.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
+          image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
 
-    - name: Build and Publish latest Docker image
-      uses: VaultVulp/gp-docker-action@1.0.1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
-        image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-
-    - name: CapRover Image Deploy
-      uses: mrfreasy/action-caprover@v2
-      with:
-        host: '${{secrets.CAPROVER_ROOT}}'
-        app: 'timmeey-about-everything'
-        token: '${{secrets.CAPROVER_BLOG_TOKEN}}'
-        image: docker.pkg.github.com/timmeey/timmeey-about-everything/timmeeyblog:latest
+        #image: docker.pkg.github.com/timmeey/timmeey-about-everything/timmeeyblog:latest
