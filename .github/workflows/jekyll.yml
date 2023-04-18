@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
           image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-          image: docker.pkg.github.com/timmeey/timmeey-about-everything/timmeeyblog:main-latest
+          image-tag: main-latest
 
       - name: Build and Publish latest STAGE Docker image
         if: github.ref != 'refs/heads/master'
@@ -34,4 +34,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
           image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-          image: docker.pkg.github.com/timmeey/timmeey-about-everything/timmeeyblog:stage-latest
+          image-tag: stage-latest
