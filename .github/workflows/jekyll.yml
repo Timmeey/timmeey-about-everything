@@ -4,8 +4,7 @@ on:
   push:
 
 jobs:
-  test:
-
+  BuildBlog:
     runs-on: ubuntu-latest
 
     steps:
@@ -34,4 +33,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
           image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-          image-tag: $(git rev-parse --short "$GITHUB_SHA")
+          image-tag: ${GITHUB_SHA::7}
