@@ -4,8 +4,7 @@ on:
   push:
 
 jobs:
-  test:
-
+  BuildBlog:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +25,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
           image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-          image-tag: main-latest
+          image-tag: production-latest
 
-      - name: Build and Publish latest STAGE Docker image
+      - name: Build and Publish this commit as image for staging deployments
         if: github.ref != 'refs/heads/master'
         uses: VaultVulp/gp-docker-action@1.0.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
           image-name: timmeeyblog # Provide only Docker image name, tag will be automatically set to latest
-          image-tag: stage-latest
+          image-tag: ${{ github.sha }}
