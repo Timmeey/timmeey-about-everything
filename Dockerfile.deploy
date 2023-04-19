@@ -1,3 +1,4 @@
+ARG IMAGE_TAG
 # Use the base image from GitHub package registry
-FROM ghcr.io/timmeey/timmeey-about-everything/timmeeyblog:main-latest
+FROM ghcr.io/timmeey/timmeey-about-everything/timmeeyblog:$IMAGE_TAG
 
